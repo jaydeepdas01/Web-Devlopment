@@ -1,0 +1,119 @@
+#div1{
+   height: 100px; 
+   background-color: aqua;
+   width: 100px;
+   border-width: 2px;
+   border-style: solid;
+   border-color: black;
+
+   
+}
+h1{
+
+   text-transform: uppercase;
+   height: 100px;
+   width: 200px;
+   background-color: blueviolet;
+   border-width: 3px;
+   border-style: dotted;
+   border-color: rgb(247, 198, 2);
+   text-align: center; 
+}
+
+/* border shorthand */
+h2{
+   height: 100px;
+   width: 100px;
+   background-color: aquamarine;
+   border: 2px dashed rgb(255, 0, 43);
+}
+
+
+/* round border */
+h3{
+   height: 100px;
+   width: 100px;
+   background-color: rgb(13, 133, 253);
+   border: 2px solid rgb(255, 0, 0) ;
+   border-radius:15px;
+}
+
+/* padding */
+#div2{
+   height: 100px; 
+   background-color: aqua;
+   width:100px;
+   border: 2px solid rgb(255, 0, 0) ;
+   
+   padding-left: 25px;
+   padding-right: 25px;
+   padding-top: 25px;
+   padding-bottom: 25px;
+
+}
+
+/* single hand padding
+padding 50px means all size 25px or any px no. */
+#div3{
+   height: 100px; 
+   background-color: rgb(234, 146, 47);
+   width:100px;
+   border: 2px solid rgb(255, 0, 0) ;
+   
+   padding: 25px;
+
+   
+
+}
+
+/* clock wise padding top-right-bottom-left */
+#div4{
+   height: 100px; 
+   background-color: rgb(39, 173, 48);
+   width:100px;
+   border: 2px solid rgb(255, 0, 0) ;
+   
+   padding: 10px 15px 20px 25px;
+
+}
+
+/* margin */
+#div5{
+   height: 100px; 
+   background-color: rgb(47, 99, 255);
+   width:100px;
+   border: 2px solid rgb(255, 0, 0) ;
+   
+   padding-left: 25px;
+   padding-right: 25px;
+   padding-top: 25px;
+   padding-bottom: 25px;
+
+   margin-top: 25px;
+   margin-right: 25px;
+   margin-bottom: 25px;
+   margin-left: 25px;
+
+}
+
+/* margin single hand*/
+#div6{
+   height: 100px; 
+   background-color: rgb(178, 255, 23);
+   width:100px;
+   border: 2px solid rgb(255, 0, 0) ;
+   
+   margin:25px;
+
+}
+
+/* clock wise margin top-right-bottom-left */
+#div7{
+   height: 100px; 
+   background-color: rgb(39, 173, 48);
+   width:100px;
+   border: 2px solid rgb(255, 0, 0) ;
+   
+   margin: 10px 15px 20px 25px;
+
+}

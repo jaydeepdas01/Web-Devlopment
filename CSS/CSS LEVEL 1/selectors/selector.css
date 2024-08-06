@@ -1,0 +1,30 @@
+/* universal selector */
+
+*{
+/* it color everything in the document */
+    color: red;
+}
+
+/* element selector */
+h1{
+    color: green; 
+}
+
+/* id selector */
+#headingOne{
+
+    color: rgb(217, 255, 0);
+
+}
+
+#headingTwo{
+    color: blue;
+}
+
+/* class selector */
+
+.myclass{
+    color: rgb(0, 238, 255);
+}
+
+ 

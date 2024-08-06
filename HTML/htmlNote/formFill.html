@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM CREATION</title>
+</head>
+<body>
+<!-- form tag -->
+
+<form action="new.php">
+
+    <h1><u>Payment Form</u></h1>
+    <h2>Conteact Information </h2>
+
+<p>Name: <input type="text" placeholder="Enter Full name" required></p>
+
+  <fieldset>
+        <legend>Gender</legend>
+    <p>
+
+        Male <input type="radio" name="gender">
+        Female <input type="radio" name="gender">
+    </p>
+    </fieldset
+br
+br
+    <p>
+        Address: <textarea name="address" id="address" cols="100" rows="2" placeholder="write address" required></textarea>
+       
+    </p>
+   
+
+    <p>Email: <input type="email" id="email" placeholder="eg:-xyz.com" required></p>
+
+    <p>Pincode: <input type="number" name="pincode" id="pincode" required></p>
+    <br>
+    <hr>
+    
+    <h2><u>Payment Imformation</u></h2>
+    <p>Card Type: 
+
+        <select name="CardType" id="CardType" required>
+
+        <option value="">Select a Card Type</option>
+        <option value="Visa">Visa</option>
+        <option value="MasterCard">Master Card</option>
+        <option value="Rupay">Rupay</option>
+
+        </select>
+    </p>
+    
+    <p>
+        card number: <input type="number" name="cardnumber" id ="cardnumber" placeholder="XX XX XX XX XX XX XX">
+    </p>
+    <p>
+        Expiration date: <input type="date" name="date" id="date">
+    </p>
+
+    <p>CVV: <input type="password" name="cvv" id="cvv" placeholder="Enter cvv"></p>
+
+
+    <input type="submit" value="pay now">
+</form>
+
+
+    
+
+</body>
+</html>

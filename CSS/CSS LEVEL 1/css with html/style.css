@@ -1,0 +1,28 @@
+h1{
+    color : rgb(225, 255, 0);
+}
+
+h2{
+    color: blue;
+}
+
+p{
+    color: rgb(0, 0, 0);
+}
+
+button{
+    color: rgb(198, 209, 46);
+
+    background-color: #dedff5;
+}
+
+body{
+
+    /* /these three method used for color choose */
+background-color: red;
+
+background-color: rgb(255,0,0);
+
+background-color: #ff0000;
+
+}

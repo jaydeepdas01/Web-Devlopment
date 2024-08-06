@@ -1,0 +1,53 @@
+#center{
+   text-align: center;
+   text-decoration: red wavy underline;
+}
+#right{
+    text-align: right;
+    text-decoration: blue line-through;
+}
+
+#left{   
+    text-align: left;
+    text-decoration: green dotted overline;
+}
+
+a{
+    /* use for hide underline */
+    text-decoration: none;
+}
+
+
+
+/* we also set in 100 - 900 value */
+#one{
+ font-weight: normal;
+}
+
+#two{
+    font-weight: bold;
+}
+#three{
+   font-weight: bolder; 
+}
+#four{
+    font-weight: lighter;
+}
+
+/* font style */
+
+#font1{
+    font-family: arial ;
+}
+#font2{
+    font-family: 'segoe ui' ;
+}
+
+#font3{
+    /* its show font style depend on browerS */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#font4{
+    font-family: cursive ;
+}
