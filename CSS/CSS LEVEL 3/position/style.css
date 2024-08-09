@@ -1,0 +1,46 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+#box1{
+    /* noting change beacuse of this is deafult position any propert not work*/
+position: static;
+
+}
+
+#box2{
+    /* position work on relatine top left bottom left */
+    position: relative;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+   
+}
+#box3{
+    /* box4 hide on box3 */
+    position: absolute;
+
+    /* 10px takes from body tag means full document because of closest ancesment*/
+    top: 500px;
+    /* pure document ka 20px */
+    left: 20px;
+
+}
+
+#box4{
+    /* use for heading or navbar on website */
+    position: fixed;
+   top: 0;
+}
+
+#box5{
+    /* fix when its position is come on document */
+position: sticky;
+top: 0;
+left: 20px;
+
+     
+}
