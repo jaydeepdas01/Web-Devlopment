@@ -1,0 +1,23 @@
+#box1{
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    font-size: 10px;
+}
+
+#box2{
+    /* jitna div 1 hai uska 30% width lega */
+    width: 30%;
+    background-color: yellow;
+    /* 10% of parents  */
+    margin-left: 10%;
+    /* 2 times of parents font size */
+    font-size: 2em; 
+    /* root element ke according size set karta hai  or deafult 16px ya depand on brower hota hai*/
+    width: 5rem;
+
+    /* jitna screen show hoga uska screen ka 10% height lega */
+
+    height: 20vh;
+    /* width: 10%vw; same as for for width */
+}

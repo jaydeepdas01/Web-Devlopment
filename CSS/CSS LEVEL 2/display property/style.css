@@ -1,0 +1,52 @@
+#div1{
+    background-color: aqua;
+    /* extra space to required space */
+    display: inline;
+}
+button{
+    /* required space to extra space */
+   display: block;
+}
+
+/* only left and right property */
+#box1{
+    background-color: red;
+    height:200px;
+    width: 200px;
+    margin: 25px;
+    padding: 25px;
+    display: inline; 
+}
+
+/* inline-block approve every property margin padding height etc show*/
+#box2{
+    background-color: green;
+    height:200px;
+    width: 200px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+
+
+/* display none use for hide for document */
+#box3{
+    background-color: blue;
+    height:200px;
+    width: 200px;
+     margin: 25px;
+    padding: 25px;
+    display: none;
+}
+
+
+#box4{
+    background-color: rgb(0, 255, 255);
+    height:200px;
+    width: 200px;
+     margin: 25px;
+    padding: 25px;
+   visibility: hidden;
+}
+
+

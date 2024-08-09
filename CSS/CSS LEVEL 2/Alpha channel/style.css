@@ -1,0 +1,42 @@
+
+div{
+    display: inline-block;
+}
+
+h1{
+    /* background-color:black; */
+    color: rgb(0, 0, 0);
+    display: inline;
+    background-color: rgb(192, 254, 233);
+}
+
+/* Alpha channel help to change opacity of color it use with rgba(value1 0 to 1) */
+#div1{
+  
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    background-color: rgba(255,0,0,0.5);
+  
+}
+
+#div2{
+  
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    background-color: rgba(255,0,0,0.75);
+  
+}
+
+#div3{
+  
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    background-color: rgba(255,0,0,1);
+  
+}
