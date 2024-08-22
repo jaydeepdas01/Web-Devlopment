@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+}
+
+div{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    width: 800px;
+    height: 200px;
+
+    /* create flex box  */
+    display: flex;
+
+    /* box id right se start hoga */
+    flex-direction: row-reverse;
+
+    /* sb column me ho jayega automatic size adjust ho jayega jb tak mumkin ho */
+    flex-direction: column;
+
+    /* column reverse me ho jayega */
+    flex-direction: column-reverse;
+
+     /* default */
+     flex-direction: row;
+
+     /* noting change */
+     justify-content: flex-start;
+     /* for set in right */
+     justify-content: flex-end;
+     /* for align in center */
+     justify-content: center;
+
+     /* space on conaitner */
+     justify-content: space-around;
+     /* space between boxes */
+     justify-content: space-between;
+      /* evenly spreed same space all around */
+     justify-content: space-evenly;
+
+}
+
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: rgb(255, 81, 223);
+}
+#box3{
+    background-color: rgb(115, 255, 45);
+}
+#box4{
+    background-color: rgb(255, 181, 32);
+}
+#box5{
+    background-color: rgb(255, 32, 32);
+}

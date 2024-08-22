@@ -1,0 +1,36 @@
+div{
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+}
+
+
+/* its help to create responsive website */
+/* exact 600px pe aate hi div ka colour change ho jayga */
+@media (width : 600px) {
+    div{
+        background-color: red;
+    }
+}
+
+/* min width ya usse upar width pe response krega */
+@media (min-width:600px){
+    div{
+      background-color: blue;  
+    }
+}
+
+/* 600px ya usse nichhe ke px me websiteresponse krega */
+@media (max-width:600px){
+    div{
+      background-color: rgb(200, 255, 0);  
+    }
+}
+
+/* 200px to 300px color chnage */
+@media(min-width : 200px) and (max-width : 300px){
+    div{
+        background-color: blueviolet;
+    }
+}
+

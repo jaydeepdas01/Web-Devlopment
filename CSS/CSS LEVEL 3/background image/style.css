@@ -1,0 +1,31 @@
+div{
+    height:120px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+   
+}
+body{
+background-image: url("img.jpg");
+background-size: cover;
+
+}
+#box1{
+    background-image: url("img.jpg");
+    /* for full image cover no empty space 
+    isme box chota or img bda*/
+    background-size: cover;
+}
+#box2{
+    background-image: url("img.jpg");
+    /* isme img chota bg bda hots hai photo repeat hots hai*/
+    background-size: contain;
+}
+
+#box3{
+    background-image: url("img.jpg");
+    /* for full image cover no empty space 
+    isme box chota or img bda*/
+    background-size: auto;
+}

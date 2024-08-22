@@ -1,0 +1,32 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+
+    /* transition propty sbme lagega aur 2s time lega  */
+    transition-property: all ;
+    transition-duration: 2s;
+    transition-timing-function: ease in;
+    transition-delay: 1s;
+
+    /*  short hand*/
+    transition: all 2s ease-in 1s;
+}
+
+/* hover krne pr mouse le jane pr colour chanbge ho jayega */
+div:hover{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+
+}
+
+/* click krne pr color change hoga */
+div:active{
+    background-color: green;
+    color: black;
+    font-size: 10px;
+  
+}
+
